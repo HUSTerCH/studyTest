@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="logic"
+            type="com.example.studytest.viewModel.Logic" />
+        <variable
+            name="userList"
+            type="com.example.studytest.model.UserList" />
+        <variable
+            name="Adapter"
+            type="com.example.studytest.viewModel.UserAdapter" />
+    </data>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/main_toolbar"
+        android:background="@color/purple_500"
+        android:title="StudyTest"
+        android:titleTextColor="@color/white" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
+</LinearLayout>
+</layout>
