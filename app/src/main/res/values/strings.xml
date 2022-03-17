@@ -5,4 +5,16 @@
     <string name="action_settings">Settings</string>
     <string name="action_edit">Edit</string>
     <string name="action_share">Share</string>
+    <string name="user_name1">小1</string>
+    <string name="user_name2">小2</string>
+    <string name="user_name3">小3</string>
+    <string name="user_name4">小4</string>
+    <string name="user_name5">小5</string>
+    <string name="user_name6">小6</string>
+    <string name="user_name7">小7</string>
+    <string name="user_name8">小8</string>
+    <string name="user_name9">小9</string>
+    <string name="user_name10">小10</string>
+    <string name="studytest">StudyTest</string>
+
 </resources>
