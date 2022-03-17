@@ -6,9 +6,7 @@
         <variable
             name="logic"
             type="com.example.studytest.viewModel.Logic" />
-        <variable
-            name="userList"
-            type="com.example.studytest.model.UserList" />
+
         <variable
             name="Adapter"
             type="com.example.studytest.viewModel.UserAdapter" />
@@ -26,9 +24,9 @@
         android:background="@color/purple_500"
         android:title="StudyTest"
         android:titleTextColor="@color/white" />
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listView" />
+        android:id="@+id/recycleView" />
 </LinearLayout>
 </layout>

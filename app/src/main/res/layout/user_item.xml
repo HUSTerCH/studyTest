@@ -6,16 +6,20 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:id="@+id/view_Title"
+        android:id="@+id/view_userName"
         android:textSize="25dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:id="@+id/view_Content"
+        android:id="@+id/view_userAge"
         android:textSize="17dp"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="13dp"
+        android:id="@+id/view_userID"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
         android:background="@color/black"/>
 
 </LinearLayout>
