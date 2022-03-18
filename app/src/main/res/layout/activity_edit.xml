@@ -6,12 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:id="@+id/edit_toolbar"
-            android:background="@color/purple_500"/>
-        <TextView
+    <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/edit_title"

@@ -24,18 +24,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val userAdapter = UserAdapter { user -> adapterOnclick(user)  }
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
-        val mainToolbar: Toolbar = findViewById(R.id.main_toolbar)
         recyclerView.adapter = userAdapter
-        mainToolbar.inflateMenu(R.menu.menu_main)
-        mainToolbar.setOnMenuItemClickListener {item->
-            click(item.itemId)
-            true
-        }
-        userListViewModel.userLiveData.observe(this,{
+        userListViewModel.userLiveData.observe(this) {
             it?.let {
                 userAdapter.submitList(it as MutableList<User>)
             }
-        })
+        }
     }
 
     fun click(itemId:Int) {
